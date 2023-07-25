@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    min-width: 30rem;
+    background-color: #56BABD;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin: auto;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+header nav {
+    display: flex;
+}
+
+nav a img{
+    margin: 1rem;
+    width: 5rem;
+    height: 5rem;
+}
+
+
+.containImg{
+    width: 9.5rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.containImg img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow:-1.5px .5px .5px .5px  #690000;
+    
+}
+
+article p{
+    margin: auto;
+    min-width: 30rem;
+    text-align: center;
+    text-justify:distribute;
+    width: 100%;
+
+}
